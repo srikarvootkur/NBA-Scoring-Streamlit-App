@@ -1,0 +1,25 @@
+[project]
+name = "NBA-Scoring-Streamlit-App"
+description = "Model predicts points scored in future games for a specified NBA player"
+version = "0.1.0"
+authors = [
+    { name = "Srikar Vootkur", email = "srikar.vootkur@gmail.com" }
+]
+dependencies = [
+    "pandas",
+    "setuptools",
+    "nba_api",
+    "sklearn",
+    "streamlit",
+]
+
+[project.optional-dependencies]
+dev = [
+    "tox",
+    "pre-commit",
+    "bump2version"
+]
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
