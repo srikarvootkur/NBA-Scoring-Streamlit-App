@@ -9,7 +9,7 @@ dependencies = [
     "pandas",
     "setuptools",
     "nba_api",
-    "sklearn",
+    "scikit-learn",
     "streamlit",
 ]
 
