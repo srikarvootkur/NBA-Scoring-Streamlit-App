@@ -1,5 +1,5 @@
 streamlit
 nba_api
-sklearn
+scikit-learn
 pandas
 setuptools
